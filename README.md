@@ -25,7 +25,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [view solution URL here](https://your-solution-url.com)
+- Solution URL: [view solution URL here](https://www.frontendmentor.io/solutions/responsive-column-card-component-using-html-and-css-hEUC_I5PJB)
 - Live Site URL: [view live site URL here](https://lily4178993.github.io/3-column-preview-card-component/)
 
 
