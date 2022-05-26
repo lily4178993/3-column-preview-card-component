@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main.container {
+    width: 1440px;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background: hsl(0, 0%, 95%);
+}
+
+.container .box {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 3em;
+}
+
+.container .box.sedans {
+    border-radius: .5em 0 0 .5em;
+    color: hsl(31, 77%, 52%);
+    background: hsl(31, 77%, 52%);
+}
+
+.container .box.suvs {
+    color: hsl(184, 100%, 22%);
+    background: hsl(184, 100%, 22%);
+}
+
+.container .box.luxury {
+    border-radius: 0 .5em .5em 0;
+    color: hsl(179, 100%, 13%);
+    background: hsl(179, 100%, 13%);
+}
+
+.container .box .box-title {
+    font-family: sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.container .box .box-body {
+    font-family: sans-serif;
+    margin: -1em 0 2em 0;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.container .box .box-button {
+    font-family: sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: .9em 2em;
+    border: .2em solid hsl(0, 0%, 95%);
+    border-radius: 1.5em;
+    color: inherit;
+    background: hsl(0, 0%, 95%);
+    transition: all .5s;
+}
+
+.container .box .box-button:hover {
+    color: hsl(0, 0%, 95%);
+    background: transparent;
+}
+
+.attribution {
+    font-size: 1em;
+    text-align: center;
+    color: hsl(277, 64%, 61%);
+    text-shadow: 1px 1px 11px hsl(31, 77%, 52%);
+}
+
+.attribution a {
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
+}
+
+@media (max-width:1024px) {
+    main.container {
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 959px) and (min-width: 660px) {
+    main.container {
+        padding: 2em;
+    }
+
+    .container .box.sedans {
+        border-radius: .5em 0 0 .5em;
+    }
+
+    .container .box.suvs {
+        border-radius: 0 .5em .5em 0;
+    }
+
+    .container .box.luxury {
+        border-radius: .5em;
+        margin: .5em 0 0 0;
+    }
+}
+
+@media (max-width: 659px) {
+    .container .box.sedans {
+        border-radius: .5em .5em 0 0;
+    }
+
+    .container .box.suvs {
+        border-radius: 0 0 0 0;
+    }
+
+    .container .box.luxury {
+        border-radius: 0 0 .5em .5em;
+        margin: 0 0 0 0;
+    }
+
+}
