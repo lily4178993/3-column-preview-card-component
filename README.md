@@ -8,6 +8,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -21,6 +22,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![desktop-preview](https://github.com/lily4178993/3-column-preview-card-component/blob/main/design/desktop-preview.jpeg?raw=true)
 ![mobile-preview](https://github.com/lily4178993/3-column-preview-card-component/blob/main/design/mobile-preview.jpeg)
+
+### Links
+
+- Solution URL: [view solution URL here](https://your-solution-url.com)
+- Live Site URL: [view live site URL here](https://lily4178993.github.io/3-column-preview-card-component/)
 
 
 
